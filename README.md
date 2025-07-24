@@ -11,6 +11,7 @@ This study utilizes the publicly available dataset:
 ## Repository Structure
 ```
 ./
+├── trained_models/
 ├── Breast_Segmentation/
 │   └── (from Lidia Garrucho's GitHub)
 ├── Tumor_Segmentation/
@@ -45,19 +46,15 @@ python classification_model.py
 
 - **Dataset**:
 ```
-Saha, Ashirbani, Grimm, Lars J., Ghate, Sujata V., Kim, Connie E., Soo, Mary Scott, Yoon, Seung Jong, & Mazurowski, Maciej A. (2021). Dynamic contrast-enhanced magnetic resonance images of breast cancer patients with tumor locations [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/TCIA.e3sv-re93
-```
-- **Breast Segmentation**:
-```
 @article{saha2018machine,
-  title={Machine learning-based prediction of future breast cancer using algorithmically measured background parenchymal enhancement on high-risk screening MRI},
-  author={Saha, Ashirbani and Grimm, Lars J and Ghate, Sujata V and Kim, Connie E and Soo, Mary Scott and Yoon, Seung Jong and Mazurowski, Maciej A},
-  journal={Journal of Magnetic Resonance Imaging},
-  volume={47},
-  number={1},
-  pages={223--231},
+  title={A machine learning approach to radiogenomics of breast cancer: a study of 922 subjects and 529 DCE-MRI features},
+  author={Saha, Ashirbani and Harowicz, Michael R and Grimm, Lars J and Kim, Connie E and Ghate, Sujata V and Walsh, Ruth and Mazurowski, Maciej A},
+  journal={British journal of cancer},
+  volume={119},
+  number={4},
+  pages={508--516},
   year={2018},
-  publisher={Wiley Online Library}
+  publisher={Nature Publishing Group UK London}
 }
 ```
 - **Tumor Segmentation**:
