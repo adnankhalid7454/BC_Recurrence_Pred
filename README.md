@@ -10,7 +10,6 @@ Dynamic contrast-enhanced MRI of Breast Cancer Patients with Tumor Locations (Du
 
 Accessible at: The Cancer Imaging Archive (TCIA): https://www.cancerimagingarchive.net/collection/duke-breast-cancer-mri/
 
-Repository Structure
 ./
 ├── Tumor_Segmentation/
 │   └── (from Maciej Mazurowski's GitHub)
@@ -21,6 +20,7 @@ Repository Structure
 │   ├── classification_model.py
 │   └── requirements.txt
 └── README.md
+
 Installation and Setup
 1. Clone this repository
 git clone <your_repo_url>
