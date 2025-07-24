@@ -13,9 +13,9 @@ This study utilizes the publicly available dataset:
 ./
 ├── Trained_models/
 ├── Breast_Segmentation/
-│   └── (from Lidia Garrucho's GitHub)
-├── Tumor_Segmentation/
 │   └── (from Maciej Mazurowski's GitHub)
+├── Tumor_Segmentation/
+│   └── (from Lidia Garrucho's GitHub)
 ├── Feature_Extraction_Classification/
 │   ├── feature_extraction.py
 │   ├── classification_model.py
@@ -25,10 +25,10 @@ This study utilizes the publicly available dataset:
 ## Running the Framework
 
 ### Step 1: Perform Breast Segmentation
-Run the tumor segmentation as per [Maciej Mazurowski's GitHub instructions](https://github.com/MaciejMazurowski/mri-breast-tumor-segmentation).
+Run the Breast segmentation as per [Maciej Mazurowski's GitHub instructions](https://github.com/MaciejMazurowski/mri-breast-tumor-segmentation).
 
 ### Step 2: Perform Tumor Segmentation
-Run the breast segmentation following [Lidia Garrucho's GitHub instructions](https://github.com/LidiaGarrucho/MAMA-MIA).
+Run the Tumor segmentation following [Lidia Garrucho's GitHub instructions](https://github.com/LidiaGarrucho/MAMA-MIA).
 
 ### Step 3: Feature Extraction and Classification
 After the segmentation of the tumor and breast region, feature extraction is performed using the file feature_extraction.py. This script extracts radiomic features from the segmented regions to create a comprehensive dataset for classification purposes.
