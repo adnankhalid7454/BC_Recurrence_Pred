@@ -9,7 +9,6 @@ This study utilizes the publicly available dataset:
 - Accessible at: [The Cancer Imaging Archive (TCIA)](https://doi.org/10.7937/TCIA.e3sv-re93)
 
 ## Repository Structure
-
 ```
 ./
 ├── Breast_Segmentation/
@@ -22,36 +21,6 @@ This study utilizes the publicly available dataset:
 │   └── requirements.txt
 └── README.md
 ```
-### 2. Breast Segmentation Setup
-
-Clone Maciej Mazurowski's tumor segmentation repository:
-```bash
-cd Tumor_Segmentation
-git clone https://github.com/MaciejMazurowski/mri-breast-tumor-segmentation.git
-cd mri-breast-tumor-segmentation
-pip install -r requirements.txt
-```
-
-### 3. Tumor Segmentation Setup
-
-Clone Lidia Garrucho's breast segmentation repository:
-```bash
-cd ../../Tumor_Segmentation
-git clone https://github.com/LidiaGarrucho/MAMA-MIA.git
-cd MAMA-MIA
-pip install -r requirements.txt
-```
-
-### 4. Feature Extraction and Classification Setup
-
-Navigate to the dedicated folder and install requirements:
-```bash
-cd ../../Feature_Extraction_Classification
-pip install -r requirements.txt
-```
-
-Ensure your directory paths in scripts are correctly adjusted to your dataset and segmentation outputs.
-
 ## Running the Framework
 
 ### Step 1: Perform Breast Segmentation
@@ -61,9 +30,10 @@ Run the tumor segmentation as per [Maciej Mazurowski's GitHub instructions](http
 Run the breast segmentation following [Lidia Garrucho's GitHub instructions](https://github.com/LidiaGarrucho/MAMA-MIA).
 
 ### Step 3: Feature Extraction and Classification
-```bash
-cd ../Feature_Extraction_Classification
+After the segmentation of the tumor and breast region, feature extraction is performed using the file feature_extraction.py. This script extracts radiomic features from the segmented regions to create a comprehensive dataset for classification purposes.
 
+To test the classification model, these extracted features are used by the script classification_model.py. This script loads a trained model, provided in the same folder, to classify the risk of recurrence based on the extracted features.
+```bash
 # Run feature extraction
 python feature_extraction.py
 
