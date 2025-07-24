@@ -1,6 +1,6 @@
-# Dual-Stream Breast MRI Feature Extraction and Classification
+# Breast Cancer Recurrence Prediction using MRI
 
-This repository provides a structured implementation of the dual-stream feature extraction framework introduced in our research paper. The framework combines **tumor-specific radiomic features**, obtained via automated lesion segmentation, with **global parenchymal descriptors** extracted from the whole breast volume. By combining these imaging features with curated clinicopathological variables, we construct a unified, multimodal representation of recurrence risk.
+This repository provides a structured implementation of the dual-stream feature extraction framework that combines **tumor-specific radiomic features**, obtained via automated lesion segmentation, with **global parenchymal descriptors** extracted from the whole breast volume. By combining these imaging features with curated clinicopathological variables, we construct a unified, multimodal representation of recurrence risk.
 
 ## Dataset
 
