@@ -1,15 +1,14 @@
+##  Breast Cancer Recurrence Prediction
 Dual-Stream Breast MRI Feature Extraction and Classification
 This repository provides a structured implementation of the dual-stream feature extraction framework introduced in our research paper. The framework combines tumor-specific radiomic features, obtained via automated lesion segmentation, with global parenchymal descriptors extracted from the whole breast volume.
 
-Paper Abstract
-To address the challenges in breast tumor characterization from MRI, this work presents a dual-stream feature extraction framework integrating tumor-specific radiomic features from automated lesion segmentation and global breast parenchymal descriptors derived from the complete breast volume.
-
 Dataset
+
 This study utilizes the publicly available dataset:
 
 Dynamic contrast-enhanced MRI of Breast Cancer Patients with Tumor Locations (Duke-Breast-Cancer-MRI)
 
-Accessible at: The Cancer Imaging Archive (TCIA)
+Accessible at: The Cancer Imaging Archive (TCIA): https://www.cancerimagingarchive.net/collection/duke-breast-cancer-mri/
 
 Repository Structure
 ./
