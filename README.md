@@ -69,8 +69,9 @@ python classification_model.py
 }
 ```
 
-- **Your Paper**:
-```If you use this work, please cite the following:
+- **Citation**:
+- If you use this work, please cite the following:
+```
 [paper's citation here once published.]
 ```
 
