@@ -11,7 +11,7 @@ This study utilizes the publicly available dataset:
 ## Repository Structure
 ```
 ./
-├── trained_models/
+├── Trained_models/
 ├── Breast_Segmentation/
 │   └── (from Lidia Garrucho's GitHub)
 ├── Tumor_Segmentation/
@@ -69,8 +69,8 @@ python classification_model.py
 }
 ```
 
-- **Citation**:
-- If you use this work, please cite the following:
+## Citation
+If you use this work, please cite the following:
 ```
 [paper's citation here once published.]
 ```
