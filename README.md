@@ -34,13 +34,6 @@ Run the Tumor segmentation following [Lidia Garrucho's GitHub instructions](http
 After the segmentation of the tumor and breast region, feature extraction is performed using the file feature_extraction.py. This script extracts radiomic features from the segmented regions to create a comprehensive dataset for classification purposes.
 
 To test the classification model, these extracted features are used by the script classification_model.py. This script loads a trained model, provided in the same folder, to classify the risk of recurrence based on the extracted features.
-```bash
-# Run feature extraction
-python feature_extraction.py
-
-# Run classification model
-python classification_model.py
-```
 
 ## References
 
