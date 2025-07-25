@@ -1,4 +1,4 @@
-## 📌 Pipeline Summary
+## Summary
 
 1. **Feature Extraction**
    - Run `Feature_extraction.ipynb` to extract imaging-based features.
@@ -20,5 +20,6 @@
 | `test_classifier.py`          | Loads model and evaluates recurrence prediction              |
   
 jupyter notebook Feature_extraction.ipynb
+
 python test_classifier.py
 
